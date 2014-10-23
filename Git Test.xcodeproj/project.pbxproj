@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		807430B419F95E680060F74B /* PAPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 807430B319F95E680060F74B /* PAPTest.m */; };
 		8085A3A519F9579C005F2135 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8085A3A419F9579C005F2135 /* Foundation.framework */; };
 		8085A3A719F9579C005F2135 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8085A3A619F9579C005F2135 /* CoreGraphics.framework */; };
 		8085A3A919F9579C005F2135 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8085A3A819F9579C005F2135 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		807430B219F95E680060F74B /* PAPTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAPTest.h; sourceTree = "<group>"; };
+		807430B319F95E680060F74B /* PAPTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAPTest.m; sourceTree = "<group>"; };
 		8085A3A119F9579C005F2135 /* Git Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8085A3A419F9579C005F2135 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8085A3A619F9579C005F2135 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				8085A3B619F9579C005F2135 /* Main.storyboard */,
 				8085A3B919F9579C005F2135 /* PAPViewController.h */,
 				8085A3BA19F9579C005F2135 /* PAPViewController.m */,
+				807430B219F95E680060F74B /* PAPTest.h */,
+				807430B319F95E680060F74B /* PAPTest.m */,
 				8085A3BC19F9579C005F2135 /* Images.xcassets */,
 				8085A3AB19F9579C005F2135 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8085A3B519F9579C005F2135 /* PAPAppDelegate.m in Sources */,
+				807430B419F95E680060F74B /* PAPTest.m in Sources */,
 				8085A3B119F9579C005F2135 /* main.m in Sources */,
 				8085A3BB19F9579C005F2135 /* PAPViewController.m in Sources */,
 			);
@@ -456,6 +462,7 @@
 				8085A3D519F9579C005F2135 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8085A3D619F9579C005F2135 /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				8085A3D819F9579C005F2135 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
